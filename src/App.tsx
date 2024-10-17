@@ -7,6 +7,7 @@ import UseContext from "./Hooks/UseContext";
 import UseDebugValue from "./Hooks/UseDebugValue";
 import UseDeferredValue from "./Hooks/UseDeferredValue";
 import UseEffect from "./Hooks/UseEffect";
+import UseId from "./Hooks/UseId";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
         {/* <UseContext /> */}
         {/* <UseDebugValue /> */}
         {/* <UseDeferredValue /> */}
-        <UseEffect />
+        {/* <UseEffect /> */}
+        <UseId />
       </body>
     </div>
   );
