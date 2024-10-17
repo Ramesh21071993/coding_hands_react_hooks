@@ -3,6 +3,7 @@ import logo from './logo.png';
 import './App.css';
 
 import UseCallback from './Hooks/UseCallback';
+import UseContext from './Hooks/UseContext';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         </p>
       </header>
       <body className='App-body'>
-        <UseCallback />
+        {/* <UseCallback /> */}
+        <UseContext />
       </body>
     </div>
   );
