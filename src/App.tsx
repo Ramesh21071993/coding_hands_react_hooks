@@ -5,6 +5,7 @@ import "./App.css";
 import UseCallback from "./Hooks/UseCallback";
 import UseContext from "./Hooks/UseContext";
 import UseDebugValue from "./Hooks/UseDebugValue";
+import UseDeferredValue from "./Hooks/UseDeferredValue";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <body className="App-body">
         {/* <UseCallback /> */}
         {/* <UseContext /> */}
-        <UseDebugValue />
+        {/* <UseDebugValue /> */}
+        <UseDeferredValue />
       </body>
     </div>
   );
