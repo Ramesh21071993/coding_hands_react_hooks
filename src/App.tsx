@@ -16,6 +16,8 @@ import UseReducer from "./Hooks/UseReducer";
 import UseRef from "./Hooks/UseRef";
 import UseState from "./Hooks/UseState";
 import UseSyncExternalStore from "./Hooks/UseSyncExternalStore";
+import UseTransition from "./Hooks/UseTransition";
+
 
 
 
@@ -41,7 +43,8 @@ function App() {
         {/* <UseReducer /> */}
         {/* <UseRef /> */}
         {/* <UseState /> */}
-        <UseSyncExternalStore />
+        {/* <UseSyncExternalStore /> */}
+        <UseTransition />
       </body>
     </div>
   );
