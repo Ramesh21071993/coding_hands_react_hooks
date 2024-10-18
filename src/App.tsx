@@ -11,6 +11,8 @@ import UseId from "./Hooks/UseId";
 import UseImperativeHandle from "./Hooks/UseImperativeHandle";
 import UseInsertionEffect from "./Hooks/UseInsertionEffect";
 import UseLayoutEffect from "./Hooks/UseLayoutEffect";
+import UseMemo from "./Hooks/UseMemo";
+
 
 function App() {
   return (
@@ -28,7 +30,8 @@ function App() {
         {/* <UseId /> */}
         {/* <UseImperativeHandle /> */}
         {/* <UseInsertionEffect /> */}
-        <UseLayoutEffect />
+        {/* <UseLayoutEffect /> */}
+        <UseMemo />
       </body>
     </div>
   );
