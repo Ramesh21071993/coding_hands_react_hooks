@@ -12,6 +12,8 @@ import UseImperativeHandle from "./Hooks/UseImperativeHandle";
 import UseInsertionEffect from "./Hooks/UseInsertionEffect";
 import UseLayoutEffect from "./Hooks/UseLayoutEffect";
 import UseMemo from "./Hooks/UseMemo";
+import UseReducer from "./Hooks/UseReducer";
+
 
 
 function App() {
@@ -31,7 +33,9 @@ function App() {
         {/* <UseImperativeHandle /> */}
         {/* <UseInsertionEffect /> */}
         {/* <UseLayoutEffect /> */}
-        <UseMemo />
+        {/* <UseMemo /> */}
+        <UseReducer />
+
       </body>
     </div>
   );
