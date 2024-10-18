@@ -14,6 +14,7 @@ import UseLayoutEffect from "./Hooks/UseLayoutEffect";
 import UseMemo from "./Hooks/UseMemo";
 import UseReducer from "./Hooks/UseReducer";
 import UseRef from "./Hooks/UseRef";
+import UseState from "./Hooks/UseState";
 
 
 
@@ -37,7 +38,8 @@ function App() {
         {/* <UseLayoutEffect /> */}
         {/* <UseMemo /> */}
         {/* <UseReducer /> */}
-        <UseRef />
+        {/* <UseRef /> */}
+        <UseState />
       </body>
     </div>
   );
