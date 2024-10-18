@@ -8,6 +8,8 @@ import UseDebugValue from "./Hooks/UseDebugValue";
 import UseDeferredValue from "./Hooks/UseDeferredValue";
 import UseEffect from "./Hooks/UseEffect";
 import UseId from "./Hooks/UseId";
+import UseImperativeHandle from "./Hooks/UseImperativeHandle";
+
 
 function App() {
   return (
@@ -22,7 +24,8 @@ function App() {
         {/* <UseDebugValue /> */}
         {/* <UseDeferredValue /> */}
         {/* <UseEffect /> */}
-        <UseId />
+        {/* <UseId /> */}
+        <UseImperativeHandle />
       </body>
     </div>
   );
