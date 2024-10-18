@@ -13,6 +13,8 @@ import UseInsertionEffect from "./Hooks/UseInsertionEffect";
 import UseLayoutEffect from "./Hooks/UseLayoutEffect";
 import UseMemo from "./Hooks/UseMemo";
 import UseReducer from "./Hooks/UseReducer";
+import UseRef from "./Hooks/UseRef";
+
 
 
 
@@ -34,8 +36,8 @@ function App() {
         {/* <UseInsertionEffect /> */}
         {/* <UseLayoutEffect /> */}
         {/* <UseMemo /> */}
-        <UseReducer />
-
+        {/* <UseReducer /> */}
+        <UseRef />
       </body>
     </div>
   );
