@@ -9,6 +9,8 @@ import UseDeferredValue from "./Hooks/UseDeferredValue";
 import UseEffect from "./Hooks/UseEffect";
 import UseId from "./Hooks/UseId";
 import UseImperativeHandle from "./Hooks/UseImperativeHandle";
+import UseInsertionEffect from "./Hooks/UseInsertionEffect";
+
 
 
 function App() {
@@ -25,7 +27,8 @@ function App() {
         {/* <UseDeferredValue /> */}
         {/* <UseEffect /> */}
         {/* <UseId /> */}
-        <UseImperativeHandle />
+        {/* <UseImperativeHandle /> */}
+        <UseInsertionEffect />
       </body>
     </div>
   );
