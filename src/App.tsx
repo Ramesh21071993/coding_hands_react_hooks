@@ -15,6 +15,7 @@ import UseMemo from "./Hooks/UseMemo";
 import UseReducer from "./Hooks/UseReducer";
 import UseRef from "./Hooks/UseRef";
 import UseState from "./Hooks/UseState";
+import UseSyncExternalStore from "./Hooks/UseSyncExternalStore";
 
 
 
@@ -39,7 +40,8 @@ function App() {
         {/* <UseMemo /> */}
         {/* <UseReducer /> */}
         {/* <UseRef /> */}
-        <UseState />
+        {/* <UseState /> */}
+        <UseSyncExternalStore />
       </body>
     </div>
   );
